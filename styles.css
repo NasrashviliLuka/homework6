@@ -1,0 +1,83 @@
+/* daviti */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 269px;
+
+}
+
+.partner .left{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    transform: translatey(-175px);
+
+}
+.partner .left h1{
+    font-size: 32px;
+}
+
+.partner .left p{
+    font-size: 16px;
+    width:463px;
+}
+.partner .left p span{
+color: lightblue;
+}
+.partner .right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 25px;
+    height: 350px;
+}
+.partner .right img {
+    width: 219px;
+    height: 82px;
+    object-fit: cover;
+}
+/* .contact-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+} */
+
+.contact-left h1 {
+    font-size: 32px;
+}
+.contact-left p span{
+    color: lightblue;
+}
+.contact-left p {
+    font-size: 16px;
+    width: 463px;
+}
+.contact-left a{
+    display: inline-block;
+}
+article .contact-left .information-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
