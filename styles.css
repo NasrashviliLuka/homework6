@@ -1,10 +1,10 @@
-/* daviti */
+/* daviti css*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
+
 a{
     text-decoration: none;
 }
@@ -48,36 +48,64 @@ color: lightblue;
     height: 82px;
     object-fit: cover;
 }
-/* .contact-left{
+.footer{
+    background-color:#0A22F4;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    flex-direction: column;
-    gap: 30px;
-} */
-
-.contact-left h1 {
-    font-size: 32px;
+    gap: 269px;
+   padding-right: 300px;
 }
-.contact-left p span{
+.footer .marcxena{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateY(-170px);
+}
+
+.footer .marcxena h1{
+    font-size: 32px;
+    color: white;
+}
+.footer .marcxena p{
+    max-width: 463px;
+    max-height: 99px;
+    color: white;
+    
+}
+.footer .marcxena p span{
     color: lightblue;
 }
-.contact-left p {
-    font-size: 16px;
-    width: 463px;
+footer .marcxena a{
+    color: white;
 }
-.contact-left a{
-    display: inline-block;
-}
-article .contact-left .information-right{
+.footer .marjvena{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
     flex-direction: column;
-    gap: 30px;
+    gap: 81px;
+    color: white;
 }
+.nav li{
+    display: inline-block;;
+}
+.footer .nav{
+    display: flex;
+    gap: 188px;
+    font-size: 22px;
+}
+
+
+
+   
+
+
+
+
+
+
+ 
+
+
 
